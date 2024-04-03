@@ -10,29 +10,29 @@ export const data: FirstStep[] = [
   {
     id: 1,
     title: 'Шаблон 1',
-    template: 'https://linebyline.ru/template/01',
+    url: 'https://linebyline.ru/template/01',
     category: [TemplateCategory.Manicurist],
-    image: templateImage01,
+    image: 'order/templates/template-bg-01.webp',
   },
   {
     id: 2,
     title: 'Шаблон 2',
-    template: 'https://linebyline.ru/template/02',
+    url: 'https://linebyline.ru/template/02',
     category: [TemplateCategory.Manicurist],
-    image: templateImage02,
+    image: 'order/templates/template-bg-02.webp',
   },
   {
     id: 3,
     title: 'Шаблон 3',
-    template: 'https://linebyline.ru/template/03',
+    url: 'https://linebyline.ru/template/03',
     category: [TemplateCategory.Photographer],
-    image: templateImage03,
+    image: 'order/templates/template-bg-03.webp',
   },
   {
     id: 4,
     title: 'Шаблон 4',
-    template: 'https://linebyline.ru/template/04',
+    url: 'https://linebyline.ru/template/04',
     category: [TemplateCategory.Photographer],
-    image: templateImage04,
+    image: 'order/templates/template-bg-04.webp',
   },
-]
+];

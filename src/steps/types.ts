@@ -2,7 +2,7 @@ export type FirstStep = {
   id: number | string;
   category: TemplateCategory[];
   title: string;
-  template: string;
+  url: string;
   image: string;
 };
 
